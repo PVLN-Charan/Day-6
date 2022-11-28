@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        .navBar{
+            border: 3px solid transparent;
+            width: 70%;
+            height: 80px;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+            padding: 0px 20px;
+            background-color: #1c2938;
+            color: white;
+            border-radius: 10px;            
+        }
+        h2{
+            text-transform: uppercase;
+        }
+        .titleBar{
+            flex-grow: 1;
+        }
+        .menu{
+            display: flex;
+            
+            
+        }
+        li{
+            margin: 10px 10px;
+            padding: 0px 20px;
+            list-style: none;
+            background-color: transparent;
+        }
+        select{
+            border: none;
+            background-color: #1c2938;
+            color: white;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navBar">
+        <div class="titleBar">
+            <h2 class="title">Megawidth</h2>
+        </div>
+        <div class="menuBar">
+            <ul class="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>
+                    <select>
+                        <option>Page</option>
+                        <option>Page1</option>
+                    </select>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    
+</body>
+</html>

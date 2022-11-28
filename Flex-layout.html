@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Layout</title>
+    <style>
+        .card_div{
+            border: 3px solid transparent;
+            width:70%;          
+            height: auto;
+            margin: auto;
+            margin-top:80px ;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+            border-radius: 10px;
+            
+
+            
+        }
+        .card_div>div{
+            border: 3px solid transparent;
+            width:28%;
+            height: 150px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+        }
+        .card_div>div>div{
+            display: flex;
+            justify-content: space-between;
+            margin:0px 20px;
+        }
+        .card_div>div>div>.price{
+            font-size: 20px;
+            color: #b98c3b;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card_div">
+        <div>
+            <div>
+                 <h2>Cappuccino</h2>
+                <p class="price">$49</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Americano</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Espresso</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Macchiato</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Mocha</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Coffee Latte</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Piccolo Latte</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Ristretto</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                 <h2>Affogato</h2>
+                <p class="price">$49 </p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
