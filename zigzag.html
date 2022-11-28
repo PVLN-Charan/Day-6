@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zigzag</title>
+    <style>
+        .container{
+            width: 50%;
+            height: 600px;
+            margin:auto;
+            margin-top: 50px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex-container>div{
+            border: 2px solid transparent;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin: 20px;
+            background-color: #217867;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(163, 138, 138, 0.23) 0px 3px 6px;
+
+        }
+        .expand{
+            flex-grow:1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-container">
+            <div></div>
+            <div class="expand"></div>
+            <div></div>
+            
+        </div>
+        <div class="flex-container">
+            <div class="expand"></div>
+            <div></div>
+            <div></div>
+            
+        </div>
+        <div class="flex-container">
+            <div></div>
+            <div></div>
+            <div class="expand"></div>
+            
+        </div>
+    </div>
+</body>
+</html>
